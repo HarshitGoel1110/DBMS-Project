@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".DisplayTheResume"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The details of resume is..."
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:layout_margin="20dp"
+            android:layout_weight="3"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayName"
+            android:text="Name : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayEmail"
+            android:text="Email : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayPhnumber"
+            android:text="Phone Number : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayAddress"
+            android:text="Address : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayDob"
+            android:text="DOB : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayMarital"
+            android:text="Married : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayCity"
+            android:text="City : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayState"
+            android:text="State : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayCountry"
+            android:text="Country : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayPincode"
+            android:text="Pincode : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayGender"
+            android:text="Gender : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displaySkills"
+            android:text="Skills : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayAchievement"
+            android:text="Achievements : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayHobby"
+            android:text="Hobbies : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/displayDeclaration"
+            android:text="Declaration : "
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+</ScrollView>

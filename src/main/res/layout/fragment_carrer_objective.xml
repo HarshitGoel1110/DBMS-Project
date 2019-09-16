@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".CarrerObjective">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:background="#987654">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#654321">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Skill (please mention any two skills)"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/firstSkill"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="first Skill"
+                        android:textSize="20dp"
+                        android:inputType="textMultiLine"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/secondSkill"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="second Skill"
+                        android:textSize="20dp"
+                        android:inputType="textMultiLine"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#654321">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Achievements (please mention any two achievements)"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/firstAchievement"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="first achievement"
+                        android:textSize="20dp"
+                        android:inputType="textMultiLine"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/secondAchievement"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="second achievement"
+                        android:textSize="20dp"
+                        android:inputType="textMultiLine"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#654321">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Hobbies (please mention any two Hobbies)"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/firstHobby"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="first hobby"
+                        android:textSize="20dp"
+                        android:inputType="textMultiLine"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/secondHobby"
+                    android:layout_width="300dp"
+                    android:layout_height="60dp"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:hint="second hobby"
+                        android:textSize="20dp"
+                        android:inputType="textMultiLine"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardElevation="10dp"
+            android:padding="10dp"
+            android:layout_marginBottom="20dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="#654321">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DECLARATION : -"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:textSize="30sp"
+                    android:fontFamily="cursive"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/firstDeclare"
+                    android:layout_width="300dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_margin="10dp">
+
+                    <EditText
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:hint="declaration"
+                        android:textSize="20dp"
+                        android:inputType="textMultiLine"/>
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save Resume"
+            android:id="@+id/saveResume"
+            android:layout_gravity="center"
+            android:textSize="25sp"
+            android:background="#654321"
+            android:padding="15dp"
+            android:onClick="saveAndMoveBack"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
